@@ -86,6 +86,46 @@ nav ul{
 .hero h3 {
     padding: 3rem;
 }
+
+/* Location Section */
+
+#Locations {
+    min-height: 100vh ;
+    background: linear-gradient(rgba(0,0,0,0.5),transparent),url(/icon/new-york-page.png);
+    background-size: cover;
+    background-position: center ;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.Locations-head{
+    width: 90%;
+    margin: auto;
+}
+.Locations-head h2{
+    padding: 1rem 0rem ;
+    text-decoration: underline;
+}
+.Locations-head h3{
+    padding: 3rem 0rem ;
+    
+
+}
+.cloud{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.moving-cloud-1{
+
+}
+.moving-cloud-2{
+    top: 20%;
+    z-index : -1;
+}
+/* Media Query */
+
 @media screen and (max-width: 932px){
     html{
         font-size:45% ;
