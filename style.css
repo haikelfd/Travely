@@ -100,7 +100,7 @@ nav ul{
 }
 .hero{
     min-height: 90vh;
-    background: linear-gradient(rgba(0,0,0,0.5),transparent),url('/icon/land-img.jpg') ;
+    background: linear-gradient(rgba(0,0,0,0.5),transparent),url('icon/land-img.jpg') ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center ;
@@ -150,7 +150,7 @@ margin-bottom: 3rem ;
 
 #Locations {
     min-height: 100vh ;
-    background: linear-gradient(rgba(0,0,0,0.5),transparent),url(/icon/new-york-page.png);
+    background: linear-gradient(rgba(0,0,0,0.5),transparent),url(icon/new-york-page.png);
     background-size: cover;
     background-position: center ;
     display: flex;
